@@ -13,7 +13,6 @@
 		2B3BC86E1EB0673800804917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BC86C1EB0673800804917 /* Main.storyboard */; };
 		2B3BC8701EB0673800804917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BC86F1EB0673800804917 /* Assets.xcassets */; };
 		2B3BC8731EB0673800804917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BC8711EB0673800804917 /* LaunchScreen.storyboard */; };
-		2B3BC87C1EB06AA100804917 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC87B1EB06AA100804917 /* SecondViewController.m */; };
 		2B3BC87F1EB0738800804917 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC87E1EB0738700804917 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		2B3BC86F1EB0673800804917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3BC8721EB0673800804917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B3BC8741EB0673800804917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B3BC87A1EB06AA100804917 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		2B3BC87B1EB06AA100804917 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		2B3BC87D1EB0738700804917 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		2B3BC87E1EB0738700804917 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +65,6 @@
 				2B3BC8671EB0673800804917 /* AppDelegate.m */,
 				2B3BC8691EB0673800804917 /* ViewController.h */,
 				2B3BC86A1EB0673800804917 /* ViewController.m */,
-				2B3BC87A1EB06AA100804917 /* SecondViewController.h */,
-				2B3BC87B1EB06AA100804917 /* SecondViewController.m */,
 				2B3BC87D1EB0738700804917 /* ThirdViewController.h */,
 				2B3BC87E1EB0738700804917 /* ThirdViewController.m */,
 				2B3BC86C1EB0673800804917 /* Main.storyboard */,
@@ -160,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B3BC87C1EB06AA100804917 /* SecondViewController.m in Sources */,
 				2B3BC87F1EB0738800804917 /* ThirdViewController.m in Sources */,
 				2B3BC86B1EB0673800804917 /* ViewController.m in Sources */,
 				2B3BC8681EB0673800804917 /* AppDelegate.m in Sources */,
@@ -287,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitHubDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EduVen.GitHubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitHubDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EduVen.GitHubDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

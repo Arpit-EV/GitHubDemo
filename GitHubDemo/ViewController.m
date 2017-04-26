@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SecondViewController.h"
+#import "ThirdViewController.h"
 
 @interface ViewController ()
 
@@ -57,7 +57,7 @@
 -(void)btnClickedGoToNextVC:(UIButton *)sender
 {
     dispatch_async(dispatch_get_main_queue(), ^{
-        SecondViewController *objSecondViewController = [[SecondViewController alloc]init];
+        ThirdViewController *objSecondViewController = [[ThirdViewController alloc]init];
         [self.navigationController pushViewController:objSecondViewController animated:YES];
     });
     
