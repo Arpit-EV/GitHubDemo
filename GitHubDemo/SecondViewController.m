@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "ThirdViewController.h"
 
 @interface SecondViewController ()
 
@@ -36,8 +37,35 @@
     
     
     [lblTitle layoutIfNeeded];
+    
+    
+    
+    
+    UIButton *btnGoToNextVC = [[UIButton alloc]init];
+    [btnGoToNextVC setTitle:@"Go To Next VC" forState:UIControlStateNormal];
+    [btnGoToNextVC addTarget:self action:@selector(btnClickedGoToNextVC:) forControlEvents:UIControlEventTouchUpInside];
+    [btnGoToNextVC setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [btnGoToNextVC setBackgroundColor:[UIColor blackColor]];
+    [btnGoToNextVC.layer setCornerRadius:5];
+    [self.view addSubview:btnGoToNextVC];
+    
+    
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:btnGoToNextVC attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:lblTitle attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0.0]];
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:btnGoToNextVC attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0.0]];
+    
+    [btnGoToNextVC layoutIfNeeded];
+    
 }
 
+
+-(void)btnClickedGoToNextVC:(UIButton *)sender
+{
+    dispatch_async(dispatch_get_main_queue(), ^{
+        ThirdViewController *objThirdViewController = [[ThirdViewController alloc]init];
+        [self.navigationController pushViewController:objThirdViewController animated:YES];
+    });
+    
+}
 -(void)btnClickedBack:(UIBarButtonItem *)sender
 {
     [self.navigationController popViewControllerAnimated:YES];
