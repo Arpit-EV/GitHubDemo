@@ -15,7 +15,6 @@
 		2B3BC8731EB0673800804917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BC8711EB0673800804917 /* LaunchScreen.storyboard */; };
 		2B3BC87C1EB06AA100804917 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC87B1EB06AA100804917 /* SecondViewController.m */; };
 		2B3BC87F1EB0738800804917 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC87E1EB0738700804917 /* ThirdViewController.m */; };
-		2B3BC8821EB0742100804917 /* IntermediateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC8811EB0742100804917 /* IntermediateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +32,6 @@
 		2B3BC87B1EB06AA100804917 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		2B3BC87D1EB0738700804917 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		2B3BC87E1EB0738700804917 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		2B3BC8801EB0742100804917 /* IntermediateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntermediateViewController.h; sourceTree = "<group>"; };
-		2B3BC8811EB0742100804917 /* IntermediateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntermediateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +68,6 @@
 				2B3BC8671EB0673800804917 /* AppDelegate.m */,
 				2B3BC8691EB0673800804917 /* ViewController.h */,
 				2B3BC86A1EB0673800804917 /* ViewController.m */,
-				2B3BC8801EB0742100804917 /* IntermediateViewController.h */,
-				2B3BC8811EB0742100804917 /* IntermediateViewController.m */,
 				2B3BC87A1EB06AA100804917 /* SecondViewController.h */,
 				2B3BC87B1EB06AA100804917 /* SecondViewController.m */,
 				2B3BC87D1EB0738700804917 /* ThirdViewController.h */,
@@ -170,7 +165,6 @@
 				2B3BC86B1EB0673800804917 /* ViewController.m in Sources */,
 				2B3BC8681EB0673800804917 /* AppDelegate.m in Sources */,
 				2B3BC8651EB0673800804917 /* main.m in Sources */,
-				2B3BC8821EB0742100804917 /* IntermediateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
