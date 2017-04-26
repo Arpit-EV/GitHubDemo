@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ThirdViewController.h
 //  GitHubDemo
 //
 //  Created by Arpit Sharma on 26/04/17.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ThirdViewController : UIViewController
 
 
 @end
-

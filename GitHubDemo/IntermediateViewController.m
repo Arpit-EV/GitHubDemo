@@ -40,6 +40,7 @@
     [lblTitle layoutIfNeeded];
     
     
+    
     UIButton *btnGoToNextVC = [[UIButton alloc]init];
     [btnGoToNextVC setTitle:@"Go To Next VC" forState:UIControlStateNormal];
     [btnGoToNextVC addTarget:self action:@selector(btnClickedGoToNextVC:) forControlEvents:UIControlEventTouchUpInside];

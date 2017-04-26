@@ -1,30 +1,29 @@
 //
-//  SecondViewController.m
+//  ThirdViewController.m
 //  GitHubDemo
 //
 //  Created by Arpit Sharma on 26/04/17.
 //  Copyright © 2017 Edutainment Ventures. All rights reserved.
 //
 
-#import "SecondViewController.h"
 #import "ThirdViewController.h"
 
-@interface SecondViewController ()
+@interface ThirdViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation ThirdViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
+    
     [self.view setBackgroundColor:[UIColor whiteColor]];
     UIBarButtonItem *btnBack=[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:self action:@selector(btnClickedBack:)];
     self.navigationItem.leftBarButtonItem=btnBack;
     
     UILabel *lblTitle = [[UILabel alloc]init];
-    [lblTitle setText:@"Arpit's Second View Controller"];
+    [lblTitle setText:@"Arpit's Third View Controller"];
     [lblTitle setNumberOfLines:0];
     [lblTitle setTextAlignment:NSTextAlignmentCenter];
     [lblTitle setTranslatesAutoresizingMaskIntoConstraints:NO];
@@ -38,39 +37,14 @@
     
     [lblTitle layoutIfNeeded];
     
-    
-    
-    
-    
-    UIButton *btnGoToNextVC = [[UIButton alloc]init];
-    [btnGoToNextVC setTitle:@"Go To Next VC" forState:UIControlStateNormal];
-    [btnGoToNextVC addTarget:self action:@selector(btnClickedGoToNextVC:) forControlEvents:UIControlEventTouchUpInside];
-    [btnGoToNextVC setTranslatesAutoresizingMaskIntoConstraints:NO];
-    [btnGoToNextVC setBackgroundColor:[UIColor blackColor]];
-    [btnGoToNextVC.layer setCornerRadius:5];
-    [self.view addSubview:btnGoToNextVC];
-    
-    
-    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:btnGoToNextVC attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:lblTitle attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0.0]];
-    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:btnGoToNextVC attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0.0]];
-    
-    [btnGoToNextVC layoutIfNeeded];
-    
+
 }
 
-
--(void)btnClickedGoToNextVC:(UIButton *)sender
-{
-    dispatch_async(dispatch_get_main_queue(), ^{
-        ThirdViewController *objThirdViewController = [[ThirdViewController alloc]init];
-        [self.navigationController pushViewController:objThirdViewController animated:YES];
-    });
-    
-}
 -(void)btnClickedBack:(UIBarButtonItem *)sender
 {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
