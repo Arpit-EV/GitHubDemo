@@ -25,7 +25,7 @@
 
     
     UILabel *lblTitle = [[UILabel alloc]init];
-    [lblTitle setText:@"Arpit's Intermediate View Controller"];
+    [lblTitle setText:@"RSBOMB's Intermediate View Controller"];
     [lblTitle setNumberOfLines:0];
     [lblTitle setTextAlignment:NSTextAlignmentCenter];
     [lblTitle setTranslatesAutoresizingMaskIntoConstraints:NO];
