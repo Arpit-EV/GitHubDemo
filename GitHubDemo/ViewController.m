@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SecondViewController.h"
+#import "IntermediateViewController.h"
 
 @interface ViewController ()
 
@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [[[[UIApplication sharedApplication] windows] objectAtIndex:0] setBackgroundColor:[UIColor whiteColor]];
     
     UILabel *lblTitle = [[UILabel alloc]init];
     [lblTitle setText:@"Click the button bellow to go to next View Controller"];
@@ -55,8 +56,8 @@
 -(void)btnClickedGoToNextVC:(UIButton *)sender
 {
     dispatch_async(dispatch_get_main_queue(), ^{
-        SecondViewController *objSecondViewController = [[SecondViewController alloc]init];
-        [self.navigationController pushViewController:objSecondViewController animated:YES];
+        IntermediateViewController *objIntermediateViewController = [[IntermediateViewController alloc]init];
+        [self.navigationController pushViewController:objIntermediateViewController animated:YES];
     });
     
 }

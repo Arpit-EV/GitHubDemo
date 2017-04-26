@@ -1,30 +1,31 @@
 //
-//  SecondViewController.m
+//  IntermediateViewController.m
 //  GitHubDemo
 //
 //  Created by Arpit Sharma on 26/04/17.
 //  Copyright © 2017 Edutainment Ventures. All rights reserved.
 //
 
+#import "IntermediateViewController.h"
 #import "SecondViewController.h"
-#import "ThirdViewController.h"
 
-@interface SecondViewController ()
+@interface IntermediateViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation IntermediateViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-
+    // Do any additional setup after loading the view, typically from a nib.
+    
     [self.view setBackgroundColor:[UIColor whiteColor]];
     UIBarButtonItem *btnBack=[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:self action:@selector(btnClickedBack:)];
     self.navigationItem.leftBarButtonItem=btnBack;
+
     
     UILabel *lblTitle = [[UILabel alloc]init];
-    [lblTitle setText:@"Arpit's Second View Controller"];
+    [lblTitle setText:@"Arpit's Intermediate View Controller"];
     [lblTitle setNumberOfLines:0];
     [lblTitle setTextAlignment:NSTextAlignmentCenter];
     [lblTitle setTranslatesAutoresizingMaskIntoConstraints:NO];
@@ -37,8 +38,6 @@
     
     
     [lblTitle layoutIfNeeded];
-    
-    
     
     
     UIButton *btnGoToNextVC = [[UIButton alloc]init];
@@ -61,8 +60,8 @@
 -(void)btnClickedGoToNextVC:(UIButton *)sender
 {
     dispatch_async(dispatch_get_main_queue(), ^{
-        ThirdViewController *objThirdViewController = [[ThirdViewController alloc]init];
-        [self.navigationController pushViewController:objThirdViewController animated:YES];
+        SecondViewController *objSecondViewController = [[SecondViewController alloc]init];
+        [self.navigationController pushViewController:objSecondViewController animated:YES];
     });
     
 }
@@ -70,6 +69,7 @@
 {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
