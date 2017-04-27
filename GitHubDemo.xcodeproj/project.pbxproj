@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B0C73031EB1CE5400FD4B31 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C73021EB1CE5400FD4B31 /* SecondViewController.m */; };
+		2B0C73061EB1D4E300FD4B31 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C73051EB1D4E300FD4B31 /* FirstViewController.m */; };
 		2B3BC8651EB0673800804917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC8641EB0673800804917 /* main.m */; };
 		2B3BC8681EB0673800804917 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC8671EB0673800804917 /* AppDelegate.m */; };
 		2B3BC86B1EB0673800804917 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC86A1EB0673800804917 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		2B0C73011EB1CE5400FD4B31 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2B0C73021EB1CE5400FD4B31 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2B0C73041EB1D4E300FD4B31 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2B0C73051EB1D4E300FD4B31 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		2B3BC8601EB0673800804917 /* GitHubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3BC8641EB0673800804917 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B3BC8661EB0673800804917 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				2B3BC8671EB0673800804917 /* AppDelegate.m */,
 				2B3BC8691EB0673800804917 /* ViewController.h */,
 				2B3BC86A1EB0673800804917 /* ViewController.m */,
+				2B0C73041EB1D4E300FD4B31 /* FirstViewController.h */,
+				2B0C73051EB1D4E300FD4B31 /* FirstViewController.m */,
 				2B0C73011EB1CE5400FD4B31 /* SecondViewController.h */,
 				2B0C73021EB1CE5400FD4B31 /* SecondViewController.m */,
 				2B3BC87D1EB0738700804917 /* ThirdViewController.h */,
@@ -161,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B0C73031EB1CE5400FD4B31 /* SecondViewController.m in Sources */,
+				2B0C73061EB1D4E300FD4B31 /* FirstViewController.m in Sources */,
 				2B3BC87F1EB0738800804917 /* ThirdViewController.m in Sources */,
 				2B3BC86B1EB0673800804917 /* ViewController.m in Sources */,
 				2B3BC8681EB0673800804917 /* AppDelegate.m in Sources */,
