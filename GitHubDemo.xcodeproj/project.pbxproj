@@ -13,6 +13,7 @@
 		2B0C730C1EB1FA9000FD4B31 /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C730B1EB1FA9000FD4B31 /* CheckViewController.m */; };
 		2B0C730F1EB1FCEA00FD4B31 /* AddedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C730E1EB1FCEA00FD4B31 /* AddedViewController.m */; };
 		2B0C73121EB1FFA400FD4B31 /* FaltuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C73111EB1FFA400FD4B31 /* FaltuViewController.m */; };
+		2B0C73151EB2036500FD4B31 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C73141EB2036500FD4B31 /* testViewController.m */; };
 		2B3BC8651EB0673800804917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC8641EB0673800804917 /* main.m */; };
 		2B3BC8681EB0673800804917 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC8671EB0673800804917 /* AppDelegate.m */; };
 		2B3BC86B1EB0673800804917 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BC86A1EB0673800804917 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 		2B0C730E1EB1FCEA00FD4B31 /* AddedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddedViewController.m; sourceTree = "<group>"; };
 		2B0C73101EB1FFA400FD4B31 /* FaltuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaltuViewController.h; sourceTree = "<group>"; };
 		2B0C73111EB1FFA400FD4B31 /* FaltuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaltuViewController.m; sourceTree = "<group>"; };
+		2B0C73131EB2036500FD4B31 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		2B0C73141EB2036500FD4B31 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		2B3BC8601EB0673800804917 /* GitHubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3BC8641EB0673800804917 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B3BC8661EB0673800804917 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				2B0C730E1EB1FCEA00FD4B31 /* AddedViewController.m */,
 				2B0C73101EB1FFA400FD4B31 /* FaltuViewController.h */,
 				2B0C73111EB1FFA400FD4B31 /* FaltuViewController.m */,
+				2B0C73131EB2036500FD4B31 /* testViewController.h */,
+				2B0C73141EB2036500FD4B31 /* testViewController.m */,
 				2B0C73071EB1DEE600FD4B31 /* imViewController.h */,
 				2B0C73081EB1DEE600FD4B31 /* imViewController.m */,
 				2B0C73041EB1D4E300FD4B31 /* FirstViewController.h */,
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B0C73031EB1CE5400FD4B31 /* SecondViewController.m in Sources */,
+				2B0C73151EB2036500FD4B31 /* testViewController.m in Sources */,
 				2B0C73121EB1FFA400FD4B31 /* FaltuViewController.m in Sources */,
 				2B0C73061EB1D4E300FD4B31 /* FirstViewController.m in Sources */,
 				2B0C730F1EB1FCEA00FD4B31 /* AddedViewController.m in Sources */,
